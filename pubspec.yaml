@@ -1,0 +1,16 @@
+name: fidel_ocr_demo
+description: A minimal Flutter app for OCR and TTS testing.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  tesseract_ocr: ^0.3.5
+  flutter_tts: ^3.8.5
+
+flutter:
+  uses-material-design: true
